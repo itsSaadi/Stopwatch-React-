@@ -75,3 +75,71 @@ font-size: large;
 .btn3:hover{
   background-color: rgb(118, 2, 2);
 }
+@media  screen and (max-width: 550px) {
+  .title{
+   margin-left: -10%;
+  }
+  .buttons{
+    margin-left: -25%;
+  }
+  .counter{
+    margin-left: 15%;
+  }
+}
+@media  screen and (max-width: 450px) {
+  .title{
+   margin-left: -10%;
+  }
+  .buttons{
+    margin-left: -29%;
+  }
+  .counter{
+    margin-left: 15%;
+  }
+}
+@media  screen and (max-width: 420px) {
+  .title{
+   margin-left: -10%;
+  }
+  .buttons{
+    margin-left: -27%;
+  }
+  .counter{
+    margin-left: 17%;
+  }
+}
+@media  screen and (max-width: 390px) {
+  .title{
+   margin-left: -25%;
+  }
+  .buttons{
+    margin-left: -41%;
+  }
+  .counter{
+    margin-left: 12%;
+  }
+}
+
+@media  screen and (max-width: 330px) {
+  .title{
+   margin-left: -25%;
+  }
+  .buttons{
+    margin-left: -51%;
+  }
+  .counter{
+    margin-left: 12%;
+  }
+}
+@media  screen and (max-width: 300px) {
+ 
+  .counter{
+    margin-left: 12%;
+  }
+  .buttons{
+    margin-left: -99px;
+  }
+  .title{
+    margin-left: -60px;
+  }
+}

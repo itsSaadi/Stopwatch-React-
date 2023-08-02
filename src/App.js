@@ -26,13 +26,13 @@ function App() {
         <h1 className="title">StopWatch</h1>
         <h2 className="counter">{count}</h2>
         <div className="buttons">
-          <button disabled={check} className="btn1" onClick={StartWatch}>
+          <button disabled={check} className="btn btn1" onClick={StartWatch}>
             Start
           </button>
-          <button className="btn2" onClick={StopWatch}>
+          <button className="btn btn2" onClick={StopWatch}>
             Stop
           </button>
-          <button className="btn3" onClick={ResetWatch}>
+          <button className="btn btn3" onClick={ResetWatch}>
             Resest
           </button>
         </div>
